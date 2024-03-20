@@ -1,0 +1,16 @@
+ALGORITMO "sucessor_antecessor"
+VAR
+      inteiro: num,suc,ant
+
+INÍCIO
+      ESCREVA("Digite um número:")
+      LEIA(num)
+
+      ant <- num -1
+      suc <- num +1
+
+      ESCREVA("O número digitado é:", num)
+      ESCREVA("Seu antecessor é:", ant)
+      ESCREVA("Seu sucessor é:", suc)
+
+FIMALGORITMO
