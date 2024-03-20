@@ -1,0 +1,19 @@
+ALGORITMO media_aritmética
+VAR
+      REAL: nota1, nota2, nota3, media;
+
+INICIO
+      ESCREVA(“Digite a nota 1:”);
+      LEIA(nota1);
+
+      ESCREVA(“Digite a nota 2:”)
+      LEIA(nota2);
+
+      ESCREVA(“Digite a nota 3:”)
+      LEIA(nota3);
+ 
+      media <- (nota1 + nota2 + nota3) / 3;
+
+      ESCREVA(“O resultado da média é:”, media);
+
+FIMALGORITMO
