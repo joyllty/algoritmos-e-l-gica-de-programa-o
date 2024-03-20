@@ -1,0 +1,38 @@
+ALGORITMO"tomar_banho“
+VAR
+      LÓGICO: cabelo_sujo
+
+INÍCIO
+      ESCREVA("Pegue uma toalha de corpo")
+      ESCREVA("Entre no banheiro")
+      ESCREVA("Feche a porta do banheiro")
+      ESCREVA("Tire suas roupas")
+      ESCREVA("Entre no box")
+      ESCREVA("Gire o registro para ligar o chuveiro")
+      ESCREVA("Fique embaixo da água")
+      ESCREVA("Pegue o sabonete")
+      ESCREVA("Esfregue no corpo")
+      ESCREVA("Enxague o corpo na água")
+
+      cabelo_sujo <- verdadeiro
+
+      SE cabelo_sujo ENTAO
+      ESCREVA("***Se o cabelo precisar ser lavado:")
+      ESCREVA("Pegue o xampu")
+      ESCREVA("Massageie a cabeça com o xampu")
+      ESCREVA("Enxague")
+      ESCREVA("Pegue o condicionador")
+      ESCREVA("Passe o condicionador no cabelo")
+      ESCREVA("Enxague")
+
+      SENAO
+      ESCREVA("***Se o cabelo não precisar ser lavado:")
+      ESCREVA("Gire o registro para desligar o chuveiro")
+      ESCREVA("Saia do box")
+      ESCREVA("Seque o corpo")
+      ESCREVA("Vista suas roupas")
+      ESCREVA("Abra a porta")
+      ESCREVA("Saia do banheiro")
+      FIMSE
+
+FIMALGORITMO
