@@ -1,0 +1,12 @@
+ALGORITMO temperatura
+VAR
+      REAL: cels, fahren;
+
+INICIO
+      ESCREVA(“Digite a temperatura desejada em graus Celsius: ”);
+      LEIA(cels);
+ 
+      fahren <- (cels * 1.8) + 32;
+      ESCREVA(“A temperatura convertida em Fahrenheit é:”, fahren);
+
+FIMALGORITMO
