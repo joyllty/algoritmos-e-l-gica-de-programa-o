@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+       float h_predio, h_minha, s_predio, s_minha;
+ 
+       printf("Digite sua altura: ");
+       scanf("%f", &h_minha);
+ 
+       printf("\nDigite quanto mede sua sombra: ");
+       scanf("%f", &s_minha);
+ 
+       printf("\nDigite quanto mede a sombra do prédio: ");
+       scanf("%f", &s_predio);
+ 
+       h_predio = (h_minha * s_predio) / s_minha;
+ 
+       printf("\nA altura do prédio é: %.2f", h_predio);
+ 
+return 0;
+}
