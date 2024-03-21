@@ -1,0 +1,23 @@
+ALGORITMO
+VAR
+      REAL: horas, minutos, segundos, s_totais
+
+INICIO
+      ESCREVA(“Digite quantas horas: “);
+      LEIA(horas);
+
+      ESCREVA(“Digite quantos minutos: “);
+      LEIA(minutos);
+
+      ESCREVA(“Digite quantos segundos: “);
+      LEIA(segundos);
+
+      horas <- horas * 3600;
+
+      minutos <- minutos * 60;
+
+      s_totais <- horas + minutos + segundos;
+
+      ESCREVA(“O tempo total em segundos é:”, s_totais);
+
+FIMALGORITMO
