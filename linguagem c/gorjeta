@@ -1,0 +1,18 @@
+include <stdio.h>
+
+int main() {
+     float gasto, gorj, vtotal;
+ 
+     printf("Digite o valor gasto:");
+     scanf("%f", &gasto);
+ 
+     gorj = gasto * 0.1;
+ 
+     printf("O valor da gorjeta foi:" "%.2f", gorj);
+ 
+     vtotal = gasto + gorj;
+ 
+     printf("\nO valor total a ser pago é:" "%.2f", vtotal);
+
+return 0;
+}
