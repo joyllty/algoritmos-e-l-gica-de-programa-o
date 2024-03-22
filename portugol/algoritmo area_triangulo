@@ -2,7 +2,7 @@ ALGORITMO área_triangulo
 VAR
       REAL: altura, base, área;
 
-INÍCIO
+INICIO
       ESCREVA(“Qual é a altura do triângulo?”);
       LEIA(altura);
 
