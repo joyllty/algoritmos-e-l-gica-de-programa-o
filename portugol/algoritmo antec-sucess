@@ -2,7 +2,7 @@ ALGORITMO "sucessor_antecessor"
 VAR
       INTEIRO: num,suc,ant
 
-INÍCIO
+INICIO
       ESCREVA("Digite um número:")
       LEIA(num)
 
