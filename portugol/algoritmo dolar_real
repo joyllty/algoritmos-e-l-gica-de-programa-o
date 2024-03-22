@@ -2,7 +2,7 @@ ALGORITMO dólar_reais
 VAR
       REAL: taxa, real1, dólar;
 
-INÍCIO
+INICIO
       ESCREVA(“Digite o valor em reais para a conversão”);
       LEIA(real1);
 
