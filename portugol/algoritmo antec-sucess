@@ -1,6 +1,6 @@
 ALGORITMO "sucessor_antecessor"
 VAR
-      inteiro: num,suc,ant
+      INTEIRO: num,suc,ant
 
 INÍCIO
       ESCREVA("Digite um número:")
