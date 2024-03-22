@@ -2,7 +2,7 @@ ALGORITMO"tomar_banho“
 VAR
       LÓGICO: cabelo_sujo
 
-INÍCIO
+INICIO
       ESCREVA("Pegue uma toalha de corpo")
       ESCREVA("Entre no banheiro")
       ESCREVA("Feche a porta do banheiro")
