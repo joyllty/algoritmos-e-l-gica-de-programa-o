@@ -1,0 +1,19 @@
+ALGORITMO imprimir_dia_semana
+VAR
+	INTEIRO: num;
+INICIO	
+	ESCREVA(“Digite número de 1 a 7 que corresponda com os dia da semana: “);
+	LEIA(num);
+
+	ESCOLHA(num);
+		CASO 1: ESCREVA(“Domingo”);
+		CASO 2: ESCREVA(“Segunda-feira”);
+		CASO 3: ESCREVA(“Terça-feira”);
+		CASO 4: ESCREVA(“Quarta-feira”);
+		CASO 5: ESCREVA(“Quinta-feira”);
+		CASO 6: ESCREVA(“Sexta-feira);
+		CASO 7: ESCREVA(“Sábado);
+		CASO_CONTRARIO: ESCREVA(“Número inválido!”);
+
+	FIM_ESCOLHA
+FIM_ALGORITMO
