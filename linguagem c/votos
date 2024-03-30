@@ -1,3 +1,5 @@
+/*Escreva um algoritmo que leia o número de votos brancos, o número de votos nulos e o número de votos válidos em um município, 
+calcule e escreva o percentual de votos brancos, nulos e válidos em relação ao total de votos no município.*/
 #include <stdio.h>
 int main() {
        float v_brancos, v_validos, v_nulos, votos, p_brancos, p_validos, p_nulos;
