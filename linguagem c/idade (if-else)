@@ -1,3 +1,5 @@
+/*Faça um programa que, dada a idade de uma pessoa, determine sua classificação como
+menor de idade (menos de 18 anos), maior de idade ou terceira idade (idade igual ou superiora 65 anos)*/
 #include <stdio.h>
 
 int main() {
