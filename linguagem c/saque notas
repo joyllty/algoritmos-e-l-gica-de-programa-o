@@ -1,3 +1,9 @@
+/*Escreva um algoritmo que solicite do usuário o valor de um saque em caixa eletrônico, sendo que estarão disponíveis cédulas de 5, 10, 20,
+50 e 100. O algoritmo deve apresentar a menor quantidade de cédulas possível de acordo com o saque. 
+Exemplos:• Saque de 400,00: 4 cédulas de 100.
+• Saque de 350,00: 3 cédulas de 100 e 1 cédula de 50.
+• Saque de 385,00: 3 cédulas de 100, 1 cédula de 50, 1 cédula de 20, 1 cédula de 10 e 1 cédula de 5*/
+
 #include <stdio.h>
 int main() {
        int saque, notas100, notas50, notas20, notas10, notas5, resto;
