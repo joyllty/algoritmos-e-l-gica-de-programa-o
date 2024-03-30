@@ -1,4 +1,5 @@
-/*) Tendo como dados de entrada a altura e o gênero de uma pessoa, faça um programa que calcule o seu peso ideal, de acordo com as seguintes fórmulas:- Para homens: 72.7 x altura – 58- Para mulheres: 62.1 x altura - 44.7 */
+/* Tendo como dados de entrada a altura e o gênero de uma pessoa, faça um programa que calcule o seu peso ideal, de acordo com as seguintes fórmulas:
+- Para homens: 72.7 x altura – 58- Para mulheres: 62.1 x altura - 44.7 */
 #include <stdio.h>
 
 int main() {
