@@ -1,3 +1,6 @@
+/* Uma empresa decide dar um aumento aos seus funcionários de acordo com as tabelas desalario atual e tempo de serviço de um funcionário.
+• Escreva um algoritmo em pseudocódigo que leia o valor do salario atual e o tempo de serviçode um funcionário na empresa, calcule o novo salario desse funcionário e apresente o resultadona tela. */
+
 #include <stdio.h>
 
 int main() {
