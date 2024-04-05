@@ -31,7 +31,8 @@ int main() {
         printf("Sábado!");
         break;
 
-      default: printf("Número inválido!"); 
+      default: 
+				printf("Número inválido!"); 
  }
  
  return 0;
