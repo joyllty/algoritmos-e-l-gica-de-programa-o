@@ -17,7 +17,7 @@ int main() {
     printf("Digite o segundo valor: ");
     scanf("%f", &val2);
     
-    printf("Digite o terceir valor: ");
+    printf("Digite o terceiro valor: ");
     scanf("%f", &val3);
     
     if (val1 < val2 + val3 && val2 < val1 + val3 && val3 < val2 + val3){
