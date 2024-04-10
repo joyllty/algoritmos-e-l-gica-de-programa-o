@@ -1,0 +1,27 @@
+ALGORTIMO aposentadoria
+VAR INTEIRO: idade, tempo;
+
+INICIO
+    ESCREVA("Digite sua idade: ");
+    LEIA(idade);
+ 
+    ESCREVA("Digite o seu tempo de serviço: ");
+    LEIA(tempo);
+ 
+    SE (idade < 1 E idade > 160) ENTAO
+    ESCREVA("Você não está apto à aposentadoria!");
+ 
+    SENAO SE (tempo < 0 E tempo > 90) ENTAO
+    ESCREVA("O seu tempo de serviço é inválido!");
+ 
+    SENAO SE (idade >= 67 OU tempo >= 33) ENTAO
+    ESCREVA("Você pode se aposentar!");
+ 
+    SENAO SE (idade >= 58 E tempo >= 26) ENTAO
+    ESCREVA("Você pode se aposentar!");
+ 
+    SENAO
+    ESCREVA("Você não pode se aposentar!");
+ 
+    FIM_SE
+ FIM_ALGORITMO
