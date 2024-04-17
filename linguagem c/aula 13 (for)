@@ -12,7 +12,7 @@ int main() {
  return 0;
 }
 ------------------------------------------------------------------------------------------
-/* 2. Escreva um programa que mostre na tela uma contagem regressiva de 10 até 0 para olançamento de um foguete.Após o término da contagem 
+/* 2. Escreva um programa que mostre na tela uma contagem regressiva de 10 até 0 para o lançamento de um foguete. Após o término da contagem 
 regressiva, deve ser apresentada a palavra "Fogo!" */
 
 #include <stdio.h>
