@@ -1,0 +1,25 @@
+/* Escreva um algoritmo em pseudocódigo que realize a soma dos números fornecidos pelo usuário até que o número lido seja igual a zero.
+Ao final, mostre o resultado da soma. Em seguida, transcreva para a linguagem C. */
+
+----- PORTUGOL -----
+ALGORITMO soma_enquanto
+VAR 
+  INTEIRO: num, soma;
+INICIO
+  soma <- 0;
+ 
+  ESCREVA("Informe o número a ser somado: ");
+  LEIA(num);
+ 
+  ENQUANTO (num <> 0) FAÇA
+    soma <- soma + num;
+    ESCREVA("O subtotal da soma é: ", soma);
+    ESCREVA("Informe o número a ser somado: ");
+    LEIA(num);
+ 
+ FIM_ENQUANTO
+ 
+  ESCREVA("A soma totaliza em: ", soma);
+ 
+FIM_ALGORITMO
+-----------------------------------------
