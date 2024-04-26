@@ -1,0 +1,41 @@
+/* 2. Escreva um programa que apresente o seguinte menu:
+Se as opções 1, 2, 3 ou 4 forem escolhidas, mostrar na tela o nome da opção (Inserir, Excluir,Consultar, Listar).Se a opção 5 for escolhida, 
+encerrar a execução do programa.
+-----PORTUGOL-----
+ALGORITMO menu_principal
+VAR
+  REAL: num;
+INICIO
+  REPITA
+  ESCREVA("# MENU PRINCIPAL #");
+  ESCREVA("[1] Inserir");
+  ESCREVA("[2] Excluir");
+  ESCREVA("[3] Consultar");
+  ESCREVA("[4] Listar");
+  ESCREVA("[5] Sair");
+  LEIA(num);
+
+  ESCOLHA (num)
+  CASO 1:
+  ESCREVA("Inserir");
+ 
+  CASO 2:
+  ESCREVA("Excluir");
+ 
+  CASO 3:
+  ESCREVA("Consultar");
+ 
+  CASO 4:
+  ESCREVA("Listar");
+ 
+  CASO 5:
+  ESCREVA("Sair");
+ 
+  CASO_CONTRARIO:
+  ESCREVA("Número inválido");
+ 
+ FIM_ESCOLHA 
+ 
+  ENQUANTO (idade <> 5);
+FIM_ALGORITMO
+---------------------------------------------------------------
