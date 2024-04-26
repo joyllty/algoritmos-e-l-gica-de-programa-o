@@ -7,32 +7,32 @@ VAR
   REAL: num;
 INICIO
   REPITA
-  ESCREVA("# MENU PRINCIPAL #");
-  ESCREVA("[1] Inserir");
-  ESCREVA("[2] Excluir");
-  ESCREVA("[3] Consultar");
-  ESCREVA("[4] Listar");
-  ESCREVA("[5] Sair");
-  LEIA(num);
+    ESCREVA("# MENU PRINCIPAL #");
+    ESCREVA("[1] Inserir");
+    ESCREVA("[2] Excluir");
+    ESCREVA("[3] Consultar");
+    ESCREVA("[4] Listar");
+    ESCREVA("[5] Sair");
+    LEIA(num);
 
   ESCOLHA (num)
-  CASO 1:
-  ESCREVA("Inserir");
+    CASO 1:
+    ESCREVA("Inserir");
  
   CASO 2:
-  ESCREVA("Excluir");
+    ESCREVA("Excluir");
  
   CASO 3:
-  ESCREVA("Consultar");
+    ESCREVA("Consultar");
  
   CASO 4:
-  ESCREVA("Listar");
+    ESCREVA("Listar");
  
   CASO 5:
-  ESCREVA("Sair");
+    ESCREVA("Sair");
  
   CASO_CONTRARIO:
-  ESCREVA("Número inválido");
+    ESCREVA("Número inválido");
  
  FIM_ESCOLHA 
  
