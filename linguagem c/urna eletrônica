@@ -44,7 +44,10 @@ int main() {
       case 5:
         votosBrancos++;
         break;
+      default:
+        printf("Opção inválida! Tente novamente. \n");
     }
+    
     totalvotos++;
     
     p_nulos = (votosNulos * 100) / totalvotos;
@@ -56,7 +59,22 @@ int main() {
   printf("\nO número de votos de cada candidato é: \n Nelson Rodrigues: %d \n Carlos Luz: %d \n Neves Rocha: %d \n Nulos: %d \n Brancos: %d", votosNelson, votosCarlos, votosNeves, votosNulos, votosBrancos);
   printf("\nA porcentagem de votos nulos é: %.f%%", p_nulos);
   printf("\nA porentagem de votos brancos é: %.f%%", p_brancos);
-  printf("\nO candidato vencedor é: %d");
+  
+  if (votosNelson > votosCarlos && votosNelson > votosNeves){
+      printf("\nO candidato vencedor é o candidato Nelson Rodrigues!");
+  }
+  else if (votosCarlos > votosNelson && votosCarlos > votosNeves){
+      printf("\nO candidato vencedor é o candidato Carlos Luz!");
+  }    
+  else if(votosNeves > votosNelson && votosNeves > votosCarlos){
+      printf("\nO candidato vencedor é o candidato Neves Rocha!");
+  }
+  else{
+      printf("\nEmpate nos votos!");
+  }
+
+      
+  
   
  return 0;
 }
