@@ -1,0 +1,51 @@
+/* 1. Escreva um algoritmo em pseudocódigo que que leia a idade de um número indeterminado de pessoas, sendo que a idade 0 (zero) indica
+o fim da leitura e não deve ser considerada. A seguir calcule e apresente:
+• o número de pessoas;
+• a idade média do grupo;
+• a menor e a maior idade.
+Em seguida, transcreva para a linguagem C.
+
+---- PORTUGOL ----
+ALGORITMO idade
+VAR
+  INTEIRO: idade, contador,soma, menor, maior;
+  REAL: media;
+INICIO
+  cont <- 0
+  idade <- 1
+  soma < - 0
+ 
+  ESCREVA("Digite a idade do seu grupo e digite 0 para finalizar.");
+ 
+  ENQUANTO (idade <> 0 ) FACA
+    ESCREVA("Digite a sua idade: ");
+    LEIA(idade);
+
+  SE (idade > 0) ENTAO
+    contador <- contador + 1;
+    soma <- soma + idade;
+ 
+  SE (maior < idade) ENTAO
+    maior <- idade;
+ FIM_SE
+
+  SE (menor > idade) ENTAO
+    menor <- idade;
+ FIM_SE
+
+  SENAO
+    ESCREVA("eRR0");
+  FIM_SENAO
+
+  FIM_SE
+ 
+ FIM_ENQUANTO
+  media <- soma / contador;
+ 
+  ESCREVA("O número de pessoas é: ", contador);
+  ESCREVA("A idade média do grupo é: ", media);
+  ESCREVA("A menor idade do grupo é: ", menor);
+  ESCREVA("A maior idade do grupo é: ", maior);
+ 
+FIM_ALGORITMO
+--------------------------------------------------------------------
