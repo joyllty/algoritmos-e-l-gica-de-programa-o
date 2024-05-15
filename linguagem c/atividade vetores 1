@@ -5,7 +5,7 @@
 int main(){
   
   // declaração de variáveis
-  int num[5], i = 0, soma = 0, maior = 0;
+  int num[5], i = 0, soma = 0;
   float media = 0;
 
   // alimentando a estrutura de dados  
