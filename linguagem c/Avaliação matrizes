@@ -1,0 +1,58 @@
+/* AVALIAÇÃO INDIVIDUAL A2.3 
+Autor: Bruna Amaral Chapelin
+Data: 22/05/2024
+
+Programa com a finalidade de armazenar o nome completo de 10 clientes de uma loja, o valor de cada compra realizada por eles e suas respectivas idades. Também tem a função de calcular o valor médio de suas compras e com isso determinar o perfil de cada cliente. No final, exibirá cada nome, compra realizada, valor médio das compras e qual é o perfil de cada cliente, se são clientes OURO, PRATA ou BRONZE.
+*/
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  /* Declaração de variáveis */
+  char clientes[10][37] = {"Bruna Chapelin", "Matheus Werle", "Ricardo Furtado", "Pedro Chapelin", "Amélia Chapelin", "Rebecca Beccari", "Matheus Silva", "Joao Timoteo", "Bernardo Werle", "Joao Amaral"};
+  int compras[10][3] = {1000, 200, 300,
+                        100, 300, 400,
+                        500, 600, 700,
+                        500, 900, 1000,
+                        500, 200, 400,
+                        200, 200, 200,
+                        300, 300, 300,
+                        700, 800, 900,
+                        100, 1000, 900,
+                        300, 300, 800};
+  int idades[10];
+  int i, j;
+  float somas[10], medias[10];
+  char tipocliente[20];
+
+printf("Bem vindo! Por favor, informe a idade de cada cliente:\n ");
+  
+/* Entrada de dados no teclado, armazenando as idades em um vetor */
+for(i = 0; i < 10; i++){
+    printf("\nCliente [%d]: ", i + 1);
+    scanf("%d", &idades[i]);
+}
+/* Realização dos cálculos para obter o valor médio de cada cliente */
+for(i = 0; i < 10; i++){
+    for(j = 0; j < 3; j++){
+        somas[i] = somas[i] + compras[i][j];
+    }
+    medias[i] = somas[i] / 3;
+  }
+/* Determinação do perfil de cada cliente */
+printf("\nREGISTRO DE COMPRAS");
+   for(i = 0; i < 10; i++){
+          if(medias[i] >= 600 && idades[i] > 45){
+              strcpy (tipocliente, "Cliente OURO");
+          }
+          else if(medias[i] > 300 && medias[i] < 600 || idades[i] > 30){
+              strcpy (tipocliente, "Cliente PRATA");
+          }
+          else
+              strcpy (tipocliente, "Cliente BRONZE");
+/* Saída de dados */    
+        printf("\n\n 1 - Nome do cliente: %s\n 2 - Idade: %d\n Compra[%d]: %d\n Compra[%d]: %d\n Compra[%d]: %d\n 3 - Valor médio das compras: %.2f\n 4 - Perfil do cliente: %s", clientes[i], idades[i], 1, compras[i][0], 2, compras[i][1], 3, compras[i][2], medias[i], tipocliente);
+    
+}
+  return 0;
+}
