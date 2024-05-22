@@ -2,7 +2,9 @@
 Autor: Bruna Amaral Chapelin
 Data: 22/05/2024
 
-Programa com a finalidade de armazenar o nome completo de 10 clientes de uma loja, o valor de cada compra realizada por eles e suas respectivas idades. Também tem a função de calcular o valor médio de suas compras e com isso determinar o perfil de cada cliente. No final, exibirá cada nome, compra realizada, valor médio das compras e qual é o perfil de cada cliente, se são clientes OURO, PRATA ou BRONZE.
+Programa com a finalidade de armazenar o nome completo de 10 clientes de uma loja, o valor de cada compra realizada por eles e suas respectivas idades. Também 
+tem a função de calcular o valor médio de suas compras e com isso determinar o perfil de cada cliente. No final, exibirá cada nome, compra realizada, valor 
+médio das compras e qual é o perfil de cada cliente, se são clientes OURO, PRATA ou BRONZE.
 */
 #include <stdio.h>
 #include <string.h>
