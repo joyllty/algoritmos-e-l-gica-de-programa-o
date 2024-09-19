@@ -13,5 +13,5 @@ int main () {
  
        printf("\nO resto da divisão é: %d", resto);
  
-return 0;
+       return 0;
 }
