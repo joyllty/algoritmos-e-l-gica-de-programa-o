@@ -7,26 +7,26 @@ int main(){
   float vendas[5][3], soma[5] = {0, 0, 0, 0, 0};
   float medias[5] = {0, 0, 0, 0, 0};
 
-printf("Bem vindo! Por favor digite o nome dos funcionarios: ");
-for(i = 0; i < 5; i++){   
-    scanf(" %30[^\n]", nomes[i]);
-}  
+  printf("Bem vindo! Por favor digite o nome dos funcionarios: ");
+  for(i = 0; i < 5; i++){   
+      scanf(" %30[^\n]", nomes[i]);
+  }  
 
-printf("\nDigite o valor das vendas de cada funcionario.");
+  printf("\nDigite o valor das vendas de cada funcionario.");
     
-for(i = 0; i < 5; i++){
-    for(j = 0; j < 3; j++){
-        printf("\nFuncionario[%d] | Venda[%d]: ", i + 1, j + 1);
-        scanf("%f", &vendas[i][j]);
-    }
-}
+  for(i = 0; i < 5; i++){
+      for(j = 0; j < 3; j++){
+          printf("\nFuncionario[%d] | Venda[%d]: ", i + 1, j + 1);
+          scanf("%f", &vendas[i][j]);
+      }
+  }
     
-for(i = 0; i < 5; i++){
-    for(j = 0; j < 3; j++){
-        soma[i] = soma[i] + vendas[i][j];
-    }
-    medias[i] = soma[i] / 3;
-}
+  for(i = 0; i < 5; i++){
+      for(j = 0; j < 3; j++){
+          soma[i] = soma[i] + vendas[i][j];
+      }
+      medias[i] = soma[i] / 3;
+  }
     
 /* for(i = 0; i < 5; i++){
     for(i = 0; i < 5; i++){
@@ -34,9 +34,9 @@ for(i = 0; i < 5; i++){
     }
 } */
 
-for(i = 0; i < 5; i++){
-    printf("\n\n 1 - Nome do funcionario: %s\n 2 - Somatorio das vendas: %.f\n 3 - Valor medio das vendas: %.1f", nomes[i], soma[i], medias[i]);
-}    
+  for(i = 0; i < 5; i++){
+      printf("\n\n 1 - Nome do funcionario: %s\n 2 - Somatorio das vendas: %.f\n 3 - Valor medio das vendas: %.1f", nomes[i], soma[i], medias[i]);
+  }    
     
-return 0;
+  return 0;
 }
