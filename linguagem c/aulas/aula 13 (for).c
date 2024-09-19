@@ -9,7 +9,7 @@ int main() {
  } 
  
  
- return 0;
+  return 0;
 }
 ------------------------------------------------------------------------------------------
 /* 2. Escreva um programa que mostre na tela uma contagem regressiva de 10 até 0 para o lançamento de um foguete. Após o término da contagem 
@@ -28,7 +28,7 @@ int main() {
   printf("\nFogo!"); 
  
  
- return 0;
+  return 0;
 }
 ------------------------------------------------------------------------------------------
 /* 3. Escreva um programa que mostre os números múltiplos de 5, no intervalo de 1 até 100.*/
@@ -41,12 +41,12 @@ int main() {
   /*if(cont*5 <= 100){
   printf("\n%d", cont);
   } */
-  if(cont % 5 == 0){
-  printf("\n%d", cont);
- }
- } 
+    if(cont % 5 == 0){
+    printf("\n%d", cont);
+    }
+  } 
  
- return 0;
+  return 0;
 }
 ------------------------------------------------------------------------------------------
 /* 7. Escreva um programa que leia o tamanho do lado de um quadrado e imprima um quadrado daquele tamanho com asteriscos. O 
@@ -66,9 +66,9 @@ int main() {
       printf("*");
         if(i%lado == 0){
           printf("\n");
-      }
-     }
-   } 
+        }
+    }
+  } 
 
  /* if(lado > 0){
  for(i = 1; i <= lado; i++){
@@ -81,7 +81,7 @@ int main() {
  
   else{
    printf("Tamanho inválido!");
- }
+  }
  
- return 0;
+  return 0;
 }
