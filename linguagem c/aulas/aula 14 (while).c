@@ -13,12 +13,12 @@ int main() {
     printf("O subtotal da soma é: %d", soma);
     printf("\n\nInforme o número a ser somado: ");
     scanf("%d", &num); 
- }
+  }
  
   printf("\nA soma totaliza em: %d", soma);
   printf("\nPrograma encerrado!");
  
- return 0;
+  return 0;
 }
 ----------------------------------------------------------------------------------------------------------------------------------------------
 /* 2. Escreva um programa que forneça quantos números devem existir em sequência a partir do 1(1, 2, 3, 4,...) para que a sua soma ultrapasse 
@@ -39,10 +39,10 @@ int main() {
     soma = soma + num;
     num = num + 1;
  
- }
+  }
   printf("\n\nSubtotal: %d", soma);
  
-return 0;
+  return 0;
 }
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -63,17 +63,17 @@ int main() {
     scanf("%d", &num);
       if(num != senha){
         printf("\nSenha incorreta! \nACESSO NEGADO");
- } 
+      } 
  
-  if(contador >= 3){
-    printf("\n\nTrês tentativas incorretas! \nInforme uma nova senha: ");
-    scanf("%d", &senha);
-    contador = 0;
- }
+    if(contador >= 3){
+      printf("\n\nTrês tentativas incorretas! \nInforme uma nova senha: ");
+      scanf("%d", &senha);
+      contador = 0;
+    }
     contador++;
- }
+  }
  
   printf("\nSenha correta! \nACESSO PERMITIDO");
  
-return 0;
+  return 0;
 }
