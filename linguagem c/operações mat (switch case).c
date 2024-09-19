@@ -1,7 +1,5 @@
 /*Escreva um programa em C que mostre ao usuário um menu com 4 opções de operações matemáticas, as mais básicas, 
 peça dois valores numéricos, realize o cálculo, e mostre o resultado na tela.*/
-
-
 #include <stdio.h>
 int main() {
   int num;
@@ -36,16 +34,15 @@ int main() {
       if (val2 != 0){
         r4 = val1 / val2;
         printf("O resultado da divisão entre %.2f e %.2f é: %.2f", val1, val2, r4);
- }
+      }
       else {
         printf("Operação inválida!");
- }
+      }    
       break;
  
     default:
       printf("Operação inválida!");
- 
- 
  }
- return 0;
+  
+  return 0;
 }
