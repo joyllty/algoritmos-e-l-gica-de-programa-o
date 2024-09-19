@@ -13,6 +13,5 @@ int main () {
        printf("\nO valor do ICMS é: %.2f", valor_icms);
        printf("\nO valor total é: %.2f", valor_total); 
  
- 
-return 0;
+       return 0;
 }
