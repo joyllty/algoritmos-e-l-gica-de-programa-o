@@ -41,11 +41,12 @@ int main() {
  } 
    media = (float) soma / contador;
  
-  printf("O número de pessoas é: %.d", contador);
-  printf("\nA idade média do grupo é: %.1f", media);
-  printf("\nA menor idade é: %.d", menor);
-  printf("\nA maior idade é: %.d", maior);
- return 0;
+   printf("O número de pessoas é: %.d", contador);
+   printf("\nA idade média do grupo é: %.1f", media);
+   printf("\nA menor idade é: %.d", menor);
+   printf("\nA maior idade é: %.d", maior);
+  
+  return 0;
 }
 ---------------------------------------------------------------------------
 /* 2. Escreva um programa que leia o salário e o número de filhos de 10 pessoas, calcule e apresente:
@@ -87,7 +88,7 @@ int main() {
       if(salario <= 800){
         totalp800++;
       }
- } 
+   } 
  
   mediaS = (float)somaS / i;
   mediaF = (float)somaF / i;
@@ -99,5 +100,6 @@ int main() {
   printf("\nA media do salario e: %.1f",mediaS);
   printf("\nA media do numero de filhos e: %.1f",mediaF);
   printf("\nA percentagem de pessoas com salário até R$ 800,00 é: %.1f%%",percent);
- return 0;
+
+  return 0;
 }
