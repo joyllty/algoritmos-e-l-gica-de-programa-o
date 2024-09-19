@@ -21,8 +21,10 @@ int main() {
  
  
   } while (idade > 0); 
+  
   printf("O número de pessoas maiores de 18 anos é: %.f", contador);
   printf("\nA média das idades das pessoas maiores de 18 anos é: %.2f", media);
+  
   return 0;
 }
 --------------------------------------------------------------------------------
@@ -39,40 +41,41 @@ int main() {
     scanf("%d", &num);
  
  
-  switch (num){
-    case 1:
-    printf("Inserir");
-    break;
- 
-    case 2:
-    printf("Excluir");
-    break;
- 
-    case 3:
-    printf("Consultar");
-    break;
- 
-    case 4:
-    printf("Listar");
-    break;
- 
-    case 5:
-    printf("Você saiu.");
-    break;
- 
-    default:
-    printf("Número inválido");
-  }
+    switch (num){
+      case 1:
+      printf("Inserir");
+      break;
+   
+      case 2:
+      printf("Excluir");
+      break;
+   
+      case 3:
+      printf("Consultar");
+      break;
+   
+      case 4:
+      printf("Listar");
+      break;
+   
+      case 5:
+      printf("Você saiu.");
+      break;
+   
+      default:
+      printf("Número inválido");
+    }  
  
  
   } while (num != 5); 
-  return 0;
+
+   return 0;
 }
 --------------------------------------------------------------------------------
 /* 3. Escreva um programa que apresente na tela o seguinte menu:
 Caso o usuário escolha a opção 1, ele deve digitar um número par para voltar ao menu. O mesmo deve ser feito na opção 2, mas para um número 
 ímpar. Caso o usuário escolha a opção 3, o programa deve apresentar a quantidade de números pares digitados na opção 1, a quantidade de 
-números ímpares digitados na opção 2 e encerrar o programa.
+números ímpares digitados na opção 2 e encerrar o programa. */
 
 #include <stdio.h>
 int main() {
@@ -83,37 +86,37 @@ int main() {
     scanf("%d", &opcao);
  
  
-  switch (opcao){
-    case 1:
- 
-    do {
-      printf("Digite um número PAR para voltar ao menu: ");
-      scanf("%d", &num);
-    }
-    while(num % 2 != 0);
-    par++;
-    break;
- 
-    case 2:
-      do{
-        printf("Digite um número ÍMPAR para voltar ao menu: ");
+    switch (opcao){
+      case 1:
+      do {
+        printf("Digite um número PAR para voltar ao menu: ");
         scanf("%d", &num);
-       }
-      while(num % 2 == 0);
-        impar++;
-        break;
- 
-    case 3:
-      printf("Você saiu.");
+      }
+      while(num % 2 != 0);
+      par++;
       break;
- 
-    default:
-    printf("Opção inválida! Digite 1, 2 ou 3");
-  }
+   
+      case 2:
+        do{
+          printf("Digite um número ÍMPAR para voltar ao menu: ");
+          scanf("%d", &num);
+         }
+        while(num % 2 == 0);
+          impar++;
+          break;
+   
+      case 3:
+        printf("Você saiu.");
+        break;
+   
+      default:
+      printf("Opção inválida! Digite 1, 2 ou 3");
+    }
  
   } while (opcao != 3); 
  
   printf("\n\nNúmeros pares: %d \nNúmeros ímpares: %d", par, impar); 
   printf("\n");
+
   return 0;
 }
