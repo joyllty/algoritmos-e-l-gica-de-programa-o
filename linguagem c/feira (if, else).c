@@ -28,7 +28,8 @@ int main() {
     if(t_frutas > 10 || t_dinheiro > 50){
         t_dinheiro = t_dinheiro * 0.9;
     }
-        printf("O cliente irá levar %.2f quilos de fruta! \nO valor a ser pago pelo cliente é: %.2f ", t_frutas, t_dinheiro);
+    
+    printf("O cliente irá levar %.2f quilos de fruta! \nO valor a ser pago pelo cliente é: %.2f ", t_frutas, t_dinheiro);
                 
     return 0;
 }
