@@ -5,8 +5,8 @@ int main() {
  
  // alimenta a estrutura de dados de idades
   for(indice = 0; indice < 5; indice++){
-  printf("Informe a idade[%d] = ", indice);
-  scanf("%d", &idades[indice]);
+    printf("Informe a idade[%d] = ", indice);
+    scanf("%d", &idades[indice]);
   }
 
  // exibe as idades conforme digitadas na mesma ordem
@@ -25,13 +25,13 @@ int main() {
   printf("\n\nGrupo de idades pares: ");
   for(indice = 0; indice < 5; indice++){
     if(idades[indice] % 2 == 0)
-    printf("\nIdade [%d] = %d", indice, idades[indice]);
+      printf("\nIdade [%d] = %d", indice, idades[indice]);
   }
  
   printf("\n\nGrupo de idades impares: ");
   for(indice = 0; indice < 5; indice++){
     if(idades[indice] % 2 != 0)
-    printf("\nIdade [%d] = %d", indice, idades[indice]);
+      printf("\nIdade [%d] = %d", indice, idades[indice]);
   }
 
  // calculando o menor e o maior valor 
@@ -39,10 +39,10 @@ int main() {
   maior = idades[0];
   for(indice = 0; indice < 5; indice++){
     if(idades[indice] < menor){
-    menor = idades[indice];
+      menor = idades[indice];
     }
     else if (idades[indice] > maior){
-    maior = idades[indice];
+      maior = idades[indice];
     }
   }
   printf("\n\nA menor idade e: %d", menor);
@@ -57,5 +57,5 @@ int main() {
   media = soma / 5;
   printf("\n\nA media das idades e: %.2f", media);
  
- return 0;
+  return 0;
 }
