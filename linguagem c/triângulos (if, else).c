@@ -5,9 +5,7 @@
 • Chama-se de triângulo equilátero ao triângulo que tem os comprimentos dos três lados iguais;
 • Chama-se de triângulo isósceles ao triângulo que tem os comprimentos de dois lados iguais. Portanto, todo triângulo equilátero é também um triângulo isósceles; 
 • Chama-se de triângulo escaleno todo triângulo que tem os comprimentos de seus três lados diferentes.*/
-
 #include <stdio.h>
-
 int main() {
     float val1, val2, val3;
     
@@ -23,15 +21,15 @@ int main() {
     if (val1 < val2 + val3 && val2 < val1 + val3 && val3 < val2 + val3){
         printf("Esses valores verificam um triângulo!");
     }
-    
     if (val1 == val2 && val2 == val3){
         printf("\nEsse triângulo é equilátero!");
     }
-        else if (val1 == val2 || val2 == val3 || val1 == val3){
-            printf("\nEsse triângulo é isósceles!");
-        }
-            else{
-                printf("\nEsse triângulo é escaleno!");
-            }
+    else if (val1 == val2 || val2 == val3 || val1 == val3){
+        printf("\nEsse triângulo é isósceles!");
+    }
+    else{
+        printf("\nEsse triângulo é escaleno!");
+    }
+    
     return 0;
 }
