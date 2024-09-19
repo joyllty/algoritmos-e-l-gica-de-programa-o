@@ -32,8 +32,8 @@ int main() {
         break;
 
       default: 
-		printf("Número inválido!"); 
- }
+	printf("Número inválido!"); 
+  }
  
- return 0;
+  return 0;
 }
