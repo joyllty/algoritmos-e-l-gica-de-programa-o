@@ -27,31 +27,31 @@ int main() {
   float somas[10], medias[10];
   char tipocliente[20];
 
-printf("Bem vindo! Por favor, informe a idade de cada cliente:\n ");
+  printf("Bem vindo! Por favor, informe a idade de cada cliente:\n ");
   
 /* Entrada de dados no teclado, armazenando as idades em um vetor */
-for(i = 0; i < 10; i++){
-    printf("\nCliente [%d]: ", i + 1);
-    scanf("%d", &idades[i]);
-}
-/* Realização dos cálculos para obter o valor médio de cada cliente */
-for(i = 0; i < 10; i++){
-    for(j = 0; j < 3; j++){
-        somas[i] = somas[i] + compras[i][j];
-    }
-    medias[i] = somas[i] / 3;
+  for(i = 0; i < 10; i++){
+      printf("\nCliente [%d]: ", i + 1);
+      scanf("%d", &idades[i]);
   }
+/* Realização dos cálculos para obter o valor médio de cada cliente */
+  for(i = 0; i < 10; i++){
+      for(j = 0; j < 3; j++){
+          somas[i] = somas[i] + compras[i][j];
+      }
+      medias[i] = somas[i] / 3;
+    }
 /* Determinação do perfil de cada cliente */
-printf("\nREGISTRO DE COMPRAS");
-   for(i = 0; i < 10; i++){
-          if(medias[i] >= 600 && idades[i] > 45){
-              strcpy (tipocliente, "Cliente OURO");
-          }
-          else if(medias[i] > 300 && medias[i] < 600 || idades[i] > 30){
-              strcpy (tipocliente, "Cliente PRATA");
-          }
-          else
-              strcpy (tipocliente, "Cliente BRONZE");
+  printf("\nREGISTRO DE COMPRAS");
+     for(i = 0; i < 10; i++){
+            if(medias[i] >= 600 && idades[i] > 45){
+                strcpy (tipocliente, "Cliente OURO");
+            }
+            else if(medias[i] > 300 && medias[i] < 600 || idades[i] > 30){
+                strcpy (tipocliente, "Cliente PRATA");
+            }
+            else
+                strcpy (tipocliente, "Cliente BRONZE");
 /* Saída de dados */    
         printf("\n\n 1 - Nome do cliente: %s\n 2 - Idade: %d\n Compra[%d]: %d\n Compra[%d]: %d\n Compra[%d]: %d\n 3 - Valor médio das compras: %.2f\n 4 - Perfil do cliente: %s", clientes[i], idades[i], 1, compras[i][0], 2, compras[i][1], 3, compras[i][2], medias[i], tipocliente);
     
