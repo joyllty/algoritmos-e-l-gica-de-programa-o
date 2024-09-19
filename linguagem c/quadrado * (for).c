@@ -4,11 +4,9 @@ daquele tamanho com asteriscos.
 #include <stdio.h>
 #include <string.h>
 int main(){
-
   int i, j, lado;
 
   printf("PROGRAMA CRIADOR DE QUADRADOS\n");
-
   printf("Informe o tamanho do lado do quadrado: ");
   scanf("%d", &lado);
 
@@ -23,5 +21,5 @@ int main(){
   else
     printf("\nTamanho do quadrado inválido!");
   
-return 0;
+  return 0;
 }
