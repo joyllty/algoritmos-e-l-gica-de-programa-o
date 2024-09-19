@@ -36,23 +36,23 @@ int main() {
     }
   } 
 
-  media_p = (media_h + media_m) / contpessoas;
-  media_h = media_h / homens;
-  media_m = media_m / mulheres;
+    media_p = (media_h + media_m) / contpessoas;
+    media_h = media_h / homens;
+    media_m = media_m / mulheres;
   
-  if (media_p < 1500)
-    printf("\nEssas pessoas pertencem ao grupo de renda BAIXA.");
-  else if (media_p >= 1500 && media_p <= 5000)
-    printf("\nEssas pessoas pertencem ao grupo de renda MEDIA.");
-  else
-    printf("\nEssas pessoas pertencem ao grupo de renda ALTA.");
+    if (media_p < 1500)
+      printf("\nEssas pessoas pertencem ao grupo de renda BAIXA.");
+    else if (media_p >= 1500 && media_p <= 5000)
+      printf("\nEssas pessoas pertencem ao grupo de renda MEDIA.");
+    else
+      printf("\nEssas pessoas pertencem ao grupo de renda ALTA.");
   
-  printf("\nO total de pessoas é: %d", contpessoas);  
-  printf("\nA quantidade de homens é: %d", homens);
-  printf("\nA quantidade de mulheres é: %.d", mulheres);
-  printf("\nA média salarial é: %.2f", media_p);
-  printf("\nA média salarial dos homens é: %.2f", media_h);
-  printf("\nA média salarial das mulheres é: %.2f", media_m);
+    printf("\nO total de pessoas é: %d", contpessoas);  
+    printf("\nA quantidade de homens é: %d", homens);
+    printf("\nA quantidade de mulheres é: %.d", mulheres);
+    printf("\nA média salarial é: %.2f", media_p);
+    printf("\nA média salarial dos homens é: %.2f", media_h);
+    printf("\nA média salarial das mulheres é: %.2f", media_m);
   
   return 0;
 }
