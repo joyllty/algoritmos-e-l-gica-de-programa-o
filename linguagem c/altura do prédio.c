@@ -19,5 +19,5 @@ int main() {
  
        printf("\nA altura do prédio é: %.2f", h_predio);
  
-return 0;
+       return 0;
 }
