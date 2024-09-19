@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-
     int x, y, soma;
     double tempoT = 0.000000003295;
     x = 10;
