@@ -23,5 +23,6 @@ int idade, tempo;
                 else {
                   printf("Voce nao pode se aposentar!");
            }
- return 0;
+ 
+  return 0;
 }
