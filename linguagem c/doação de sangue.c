@@ -38,5 +38,5 @@ int main(){
     else
     printf("Você não está apto para doar sangue, %s", nome);
   
-return 0;
+  return 0;
 }
