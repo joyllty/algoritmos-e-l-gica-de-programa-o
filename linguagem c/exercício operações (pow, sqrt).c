@@ -25,5 +25,4 @@
       printf("\n A raiz quadrada da soma dos quadrados é: %.0f", raiz);
     
       return 0;
-
 }
