@@ -33,5 +33,5 @@ int main() {
        printf("\nA quantidade de notas de 10 é: %d", notas10);
        printf("\nA quantidade de notas de 5 é: %d", notas5);
 
- return 0;
+       return 0;
 }
